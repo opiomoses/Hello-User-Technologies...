@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello User Technologies...</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body> 
+    <!-- Back button -->
+    <div class="Back">
+    <a href="index.html">
+    <i class="fa-solid fa-arrow-left"></i> </a>
+    </div>
+
+    <!-- Header section -->
+    <div class="header-section">
+        <h2>Find the best software/system for your Enterprise</h2>
+    </div>
+
+    <form>
+        <!-- Biodata -->
+        <div class="Biodata">
+        <label>First Name</label>
+        <input type="text" name="FirstName" required>
+
+        <label>Last Name</label>
+        <input type="text" name="LastName" required>
+
+        <label>Other Names</label>
+        <input type="text" name="OtherNames">
+
+        <label>Email</label>
+        <input type="email" name="Email" required>
+
+        <label>Phone</label>
+        <input type="text" name="Phone" required>
+        </div>
+
+        <!-- Location and Enterprise -->
+        <div class="Location-Enterprise">
+        <label>Location</label>
+        <input type="text" name="Location" required>
+
+        <label>Nature of Enterprise</label><br>
+        <input type="radio" id="personal" name="NatureOfEnterprise" value="Personal">
+        <label for="personal">Personal</label><br>
+        <input type="radio" id="business" name="NatureOfEnterprise" value="Business">
+        <label for="business">Business</label><br><br>
+
+        <label>Request Type</label>
+        <input type="text" name="RequestType" required>
+        </div>
+
+        <!-- More Details about Enterprise -->
+        <div class="Details"><h3>Give more details about your Enterprise</h3>
+        <textarea name="EnterpriseDetails" cols="40" rows="10" placeholder="Describe your enterprise..."></textarea>
+        </div>
+
+        <!-- Buttons -->
+        <div class="Buttons">
+        <button type="reset">Cancel</button>
+        <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>

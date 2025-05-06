@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hello User Technologies</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<div class="form-container">
+  <h2>Thanks for entrusting Us.</h2>
+  <form action="#" method="post">
+    <label for="First Name">Full Name:</label>
+    <input type="text" id="First Name" name="First Name" required />
+
+    <label for="Last Name">Last Name:</label>
+    <input type="text" id="Last Name" name="Last Name" required />
+
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required />
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" required />
+
+    <label for="service">Service Required:</label>
+    <select id="service" name="service" required>
+
+      <option value="">-- Please select --</option>
+      <option value="installation">Network Installation</option>
+      <option value="maintenance">Network Maintenance</option>
+      <option value="consultation">Network Consultation</option>
+      <option value="upgrade">System Upgrade</option>
+
+    </select>
+
+    <label for="location">Service Location:</label>
+    <input type="text" id="location" name="location" required />
+
+    <label for="preferredDate">Preferred Service Date:</label>
+    <input type="date" id="preferredDate" name="preferredDate" required />
+
+    <label for="details">Additional Details or Questions:</label>
+    <textarea id="details" name="details" placeholder="Please describe your request in detail..."></textarea>
+
+    <button type="Cancel">Cancel</button>
+    <button type="Submit">Submit</button>
+  </form>
+</div>
+
+</body>
+</html>
